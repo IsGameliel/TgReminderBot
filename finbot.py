@@ -423,7 +423,7 @@ def notify(context):
     )
 
 def main():
-    BOT_TOKEN = "5561132468:AAF8IpgclfpAlR0f6GJe3ywvGoZIIV2D9bg"
+    BOT_TOKEN = ""
     updater = Updater(BOT_TOKEN, use_context=True)
     dp = updater.dispatcher
 
